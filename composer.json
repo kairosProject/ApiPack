@@ -10,5 +10,18 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+    	"kairos-project/api-controller": "^1@dev",
+    	"kairos-project/api-formatter": "^1@dev",
+    	"kairos-project/api-loader": "^1@dev",
+    	"kairos-project/api-normalizer": "^1@dev"
+    },
+	"suggest" : {
+		"kairos-project/api-doctrine-mongodb-odm-loader" : "To get access on mongodb database"
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+	}
 }
