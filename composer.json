@@ -1,0 +1,14 @@
+{
+    "name": "kairos-project/api-pack",
+    "description": "The metapackage of the kayros project API. Define the whole dependencies to create such API",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Vallance",
+            "email": "matthieu.vallance@cscfa.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
